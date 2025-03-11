@@ -1,9 +1,10 @@
-import java.util.ArrayList;
+package essential_task;
+
 import java.util.List;
 
 public class Menu {
     private String name; // 카테고리 이름 필드 추가 (O)
-    private List<MenuItem> menuItems; // MenuItem 클래스를 List로 관리 (O)
+    private List<MenuItem> menuItems; // essential_task.MenuItem 클래스를 List로 관리 (O)
 
     public Menu(String name, List<MenuItem> menuItems) {
         this.name = name;
@@ -16,7 +17,7 @@ public class Menu {
 
     /*
     * List를 리턴하는 함수 (O) -->> getter는 구현했지만 활용하진 못했음
-    * 대신 밑에 있는 public void printMenus(List<MenuItem> menuItems, String menu) 통해 구현하였음
+    * 대신 밑에 있는 public void printMenus(List<essential_task.MenuItem> menuItems, String menu) 통해 구현하였음
     */
     public List<MenuItem> getMenuItems() {
         return menuItems;

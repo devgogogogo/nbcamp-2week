@@ -1,3 +1,5 @@
+package essential_task;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -36,7 +38,7 @@ public class Kiosk {
 
         while (true) { // 반복문 시작(O)
             // TODO 메인메뉴 출력
-            // List와 Menu 클래스 활용하여 상위 카테고리 메뉴 출력 (O)
+            // List와 essential_task.Menu 클래스 활용하여 상위 카테고리 메뉴 출력 (O)
             System.out.println("[ MAIN MENU ]");
             for (int i = 0; i < menus.size(); i++) {
                 System.out.println(i +1 +". " + menus.get(i).getName());
@@ -51,11 +53,11 @@ public class Kiosk {
                 menu1.printMenus(burgerItems, menu1.getName());
                 int num1_1 = sc.nextInt();
                 sc.nextLine();// 숫자 입력 받기
-                /* Menu가 가진 List<MenuItem>을 반복문을 활용하여 햄버거 메뉴 출력
-                 -->> 이부분은 Menu 클래스에 메서드로 활용하였음 */
+                /* Menu가 가진 List<essential_task.MenuItem>을 반복문을 활용하여 햄버거 메뉴 출력
+                 -->> 이부분은 essential_task.Menu 클래스에 메서드로 활용하였음 */
                 //TODO 선택한 버거 출력
 
-                // 입력 받은 숫자가 올바르다면 인덱스로 활용해서 Menu가 가지고 있는 List<MenuItem>에 접근하기
+                // 입력 받은 숫자가 올바르다면 인덱스로 활용해서 Menu가 가지고 있는 List<essential_task.MenuItem>에 접근하기
                 if (num1_1 == 1) {
                     System.out.println("선택한 메뉴: "  + burgerItems.get(0).getName() + " | w "+ burgerItems.get(0).getPrice() + " | " +burgerItems.get(0).getDescription() );
                 } else if (num1_1 == 2) {

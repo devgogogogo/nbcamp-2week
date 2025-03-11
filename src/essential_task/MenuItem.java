@@ -1,3 +1,5 @@
+package essential_task;
+
 public class MenuItem {
     private String name;
     private Integer price;
