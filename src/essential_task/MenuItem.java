@@ -11,9 +11,6 @@ public class MenuItem {
         this.description = description;
     }
 
-    public MenuItem() {
-    }
-
     public String getName() {
         return name;
     }
