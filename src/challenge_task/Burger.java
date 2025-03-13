@@ -2,9 +2,7 @@ package challenge_task;
 
 import java.util.ArrayList;
 import java.util.List;
-
 public class Burger {
-
     public Menu addBurgerMenu() {
         List<MenuItem> burgerItems = new ArrayList<>(); // Menu 클래스 내 있는 List<MenuItem> 에 MenuItem 객체 생성하면서 삽입
         burgerItems.add(new MenuItem("ShackBurger", 6900, "토마토, 양상추, 쉑소스가 토핑된 치즈버거"));
