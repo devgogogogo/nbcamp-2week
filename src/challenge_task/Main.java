@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main {
-    //DB 대신 하용하는 곳이라고 생각하면 된다.
+
     public static void main(String[] args) {
 
         Burger burgerMenu = new Burger();
