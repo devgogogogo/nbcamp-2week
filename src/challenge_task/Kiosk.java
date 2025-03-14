@@ -47,8 +47,10 @@ public class Kiosk {
             System.out.println("선택한 메뉴 : "+ choiceName + " | " + choicePrice + " W | " + choiceDescription);
             // TODO 장바구니에 담는 기능 구현해야함
 
+
             int num3 = sc.nextInt();
             // 장바구니 담는 출력
+
 
             System.out.println(choiceName + " 이(가) 장바구니에 추가되었습니다.");
 //            - [ ]  **장바구니 생성 및 관리 기능**
